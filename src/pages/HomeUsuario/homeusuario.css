@@ -1,0 +1,104 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(to bottom, #111, #222);
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #ffd700;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 50px 20px;
+    
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .btn-jogar {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .destaques {
+    padding: 30px 20px;
+  }
+  
+  .jogos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .jogo-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    font-size: 14px;
+  }
+
+  .home-container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .saldo-card {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .saldo-valor {
+    font-size: 32px;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .acoes {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .acoes button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
